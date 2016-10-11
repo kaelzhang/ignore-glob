@@ -1,0 +1,27 @@
+{
+  "name": "ignore-glob",
+  "version": "1.0.0",
+  "description": "ignore-glob",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose --timeout=10s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/ignore-glob.git"
+  },
+  "keywords": [
+    "ignore-glob"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/ignore-glob/issues"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
