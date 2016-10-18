@@ -25,8 +25,26 @@ $ npm install ignore-glob --save
 ## Usage
 
 ```js
-const ignore_glob = require('ignore-glob')
+const glob = require('ignore-glob')
+
+glob({
+  cwd: cwd,
+  ignore: [
+    '/*.js',
+    '*.db'
+  ]
+}, (err, files) => {
+
+})
 ```
+
+## glob(options, callback)
+
+- **options** `Object` The `options` of ignore-glob is much the same as `node-glob` except for:
+  - ignore `String=|Array.<String>=` ignore patterns
+  - ignoreFile `path` path to the `.gitignore` or any ignore files according to gitignore spec.
+
+## glob.sync(options)
 
 ## License
 
