@@ -12,9 +12,9 @@
 [![Dependency Status](https://david-dm.org/kaelzhang/ignore-glob.svg)](https://david-dm.org/kaelzhang/ignore-glob)
 -->
 
-# ignore-glob
+# DEPRECATED
 
-<!-- description -->
+Please use [`glob-gitignore`](https://www.npmjs.com/package/glob-gitignore) instead ~
 
 ## Install
 
@@ -22,7 +22,7 @@
 $ npm install ignore-glob --save
 ```
 
-## Usage
+## ~~Usage~~
 
 ```js
 const glob = require('ignore-glob')
@@ -38,9 +38,9 @@ glob({
 })
 ```
 
-## glob(options, callback)
+## ~~glob(options, callback)~~
 
-- **options** `Object` The `options` of ignore-glob is much the same as `node-glob` except for:
+- **options** `Object` The `options` of ignore-glob is much the same as `node-glob`, except for:
   - ignore `String=|Array.<String>=` ignore patterns
   - ignoreFile `path` path to the `.gitignore` or any ignore files according to gitignore spec.
 
